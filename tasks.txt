@@ -1,0 +1,3 @@
+- README.md muss in Hauptverzeichnis data-paser liegen. Alle anderen Files dürfen woanders sein. 
+- Verzeichnis php/soll im Verzeichnis data-parser sein, sonst muss man immer wieder Files in dem Verzeicnis unter und unter alle Verzeichnisse behalten. 
+- Struktur des Projekts
