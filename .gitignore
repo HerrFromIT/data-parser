@@ -1,0 +1,201 @@
+# Data Parser .gitignore
+
+# PHP
+vendor/
+composer.lock
+.env
+.env.local
+.env.production
+.env.staging
+
+# Cache directories
+cache_*/
+match_*/
+cache_de/
+cache_en/
+match_de/
+match_en/
+
+# Log files
+*.log
+logs/
+error.log
+access.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Database
+*.sqlite
+*.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Node.js (falls verwendet)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (falls verwendet)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Java (falls verwendet)
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Sensitive data
+config/database.php
+config/secrets.php
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Test files
+test_results/
+coverage/
+.phpunit.result.cache
+
+# Documentation build
+docs/_build/
+site/
+
+# Local development
+local/
+dev/
+test/
+
+# Overpass API data (optional - uncomment if you don't want to track)
+# overpass_data.json
+# overpass_data_copy.json
+
+# Screenshots (optional - uncomment if you don't want to track screenshots)
+# screenshots/*.png
+# screenshots/*.jpg
+# screenshots/*.jpeg
+
+# Large data files
+*.csv
+*.json
+*.xml
+!config/*.json
+!utility/*.json
+
+# PHP specific
+.php_cs.cache
+.phpunit.result.cache
+phpunit.xml
+
+# Composer
+composer.phar
+
+# Laravel (falls verwendet)
+bootstrap/cache/
+storage/
+storage/app/
+storage/framework/
+storage/logs/
+
+# Symfony (falls verwendet)
+var/
+var/cache/
+var/logs/
+var/sessions/
+
+# WordPress (falls verwendet)
+wp-config.php
+wp-content/uploads/
+
+# Drupal (falls verwendet)
+sites/default/files/
+sites/default/settings.php
+
+# Custom application files
+uploads/
+files/
+media/
+assets/uploads/
+
+# Environment specific
+.env.development
+.env.test
+.env.production
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Kubernetes
+*.yaml
+*.yml
+!docker-compose.yml
+
+# Monitoring
+monitoring/
+metrics/
+
+# Security
+security/
+.secrets/
+
+# Performance
+performance/
+benchmarks/
+
+# Documentation
+docs/build/
+docs/dist/
