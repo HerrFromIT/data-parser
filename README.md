@@ -17,6 +17,7 @@ Ein intelligentes PHP-System zur automatisierten Extraktion und Verarbeitung von
 - [API-Dokumentation](#-api-dokumentation)
 - [Beispiele](#-beispiele)
 - [Entwicklung](#-entwicklung)
+- [Portfolio](#-portfolio)
 - [Lizenz](#-lizenz)
 
 ## 🎯 Überblick
@@ -391,6 +392,41 @@ class DataParser
     }
 }
 ```
+
+## 💼 Portfolio
+
+### 🎯 IT-Spezialist Portfolio
+
+Dieses Projekt ist Teil meines professionellen Portfolios als **Fachinformatiker Anwendungsentwicklung**. Es demonstriert meine Fähigkeiten in:
+
+- **Backend-Entwicklung** (PHP 8+, MySQL, RESTful APIs)
+- **Frontend-Entwicklung** (JavaScript, Vue.js, Bootstrap)
+- **Datenbankdesign** (Normalisierung, Performance-Optimierung)
+- **Software-Architektur** (OOP, Design Patterns, Error Handling)
+- **Dokumentation** (Umfassende README, API-Docs, Installation Guides)
+
+### 📊 Projekt-Statistiken
+
+- **Code-Zeilen:** 2,500+ PHP, 500+ JavaScript
+- **Dateien:** 25+ PHP-Klassen, 10+ JavaScript-Module
+- **Datenbank:** 5 normalisierte Tabellen
+- **Performance:** 2-5 Sekunden pro Land, 85% Cache-Hit-Rate
+- **Dokumentation:** 5 umfassende Guides
+
+### 🔗 Vollständiges Portfolio
+
+[![Portfolio Button](https://img.shields.io/badge/📋-Vollständiges%20Portfolio-blue?style=for-the-badge&logo=github)](PORTFOLIO.md)
+
+**Klicken Sie auf den Button oben, um mein vollständiges IT-Portfolio zu sehen!**
+
+Das Portfolio enthält:
+- ✅ Detaillierte Projektbeschreibungen
+- ✅ Technische Fähigkeiten und Zertifizierungen
+- ✅ Code-Beispiele und Best Practices
+- ✅ Berufserfahrung und Ausbildung
+- ✅ Ziele und Vision für die Zukunft
+
+---
 
 ## 📄 Lizenz
 
