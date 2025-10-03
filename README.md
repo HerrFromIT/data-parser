@@ -8,16 +8,16 @@ Ein intelligentes PHP-System zur automatisierten Extraktion und Verarbeitung von
 
 ## 📋 Inhaltsverzeichnis
 
-- [Überblick](#überblick)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Installation](#installation)
-- [Verwendung](#verwendung)
-- [Technische Architektur](#technische-architektur)
-- [API-Dokumentation](#api-dokumentation)
-- [Beispiele](#beispiele)
-- [Entwicklung](#entwicklung)
-- [Lizenz](#lizenz)
+- [Überblick](#-überblick)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Installation](#-installation)
+- [Verwendung](#-verwendung)
+- [Technische Architektur](#-technische-architektur)
+- [API-Dokumentation](#-api-dokumentation)
+- [Beispiele](#-beispiele)
+- [Entwicklung](#-entwicklung)
+- [Lizenz](#-lizenz)
 
 ## 🎯 Überblick
 
@@ -164,14 +164,14 @@ $countries = ['Deutschland', 'Österreich', 'Schweiz'];
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Web Interface │    │   PHP Backend  │    │   Database      │
-│   (Vue.js)      │◄──►│   (App.php)    │◄──►│   (MySQL)      │
+│   Web Interface │    │   PHP Backend   │    │   Database      │
+│   (Vue.js)      │◄──►│   (App.php)     │◄──►│   (MySQL)       │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
          │                       │                       │
          │                       ▼                       │
-         │              ┌─────────────────┐             │
-         │              │  Overpass API    │             │
-         └──────────────►│  (OpenStreetMap) │◄────────────┘
+         │              ┌─────────────────┐              │
+         │              │  Overpass API   │              │
+         └─────────────►│  (OpenStreetMap)│ ◄────────────┘
                         └─────────────────┘
 ```
 
